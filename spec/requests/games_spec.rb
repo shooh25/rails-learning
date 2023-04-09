@@ -1,6 +1,7 @@
 require 'rails_helper'
 
 RSpec.describe "Games", type: :request do
+  
   describe "GET /games" do
     it "記事全件取得" do
       # 記事リスト作成
